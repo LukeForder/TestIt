@@ -1,0 +1,288 @@
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\UI.Admin.csprojResolveAssemblyReference.cache
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\Shell.baml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\Shell.g.cs
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\UI.Admin_MarkupCompile.cache
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\SubjectsView.baml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\SubjectsView.g.cs
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\App.g.cs
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\UI.Admin.g.resources
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\UI.Admin.Properties.Resources.resources
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\UI.Admin.csproj.GenerateResource.Cache
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\UI.Admin.exe
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\UI.Admin.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\BlkBxFacade.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\Domain.Db.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\Domain.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\Dynamo.Ioc.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\FVFacade.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\GalaSoft.MvvmLight.WPF4.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\Infrastructure.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\UI.Common.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\Domain.Db.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\Domain.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\BlkBxFacade.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\FVFacade.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\UI.Common.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\Infrastructure.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\BlackBox.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\BlackBox.xml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\FluentValidation.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\FluentValidation.xml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\Wintellect.Sterling.Server.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\Wintellect.Sterling.Server.FileSystem.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\de\FluentValidation.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\es\FluentValidation.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\fr\FluentValidation.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\it\FluentValidation.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\nl\FluentValidation.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\pl\FluentValidation.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\pt\FluentValidation.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\sv\FluentValidation.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\UI.Admin.exe
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\UI.Admin.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\App.baml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\HomeView.baml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\HomeView.g.cs
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\UI.Admin_MarkupCompile.lref
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\TestsView.baml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\TestsView.g.cs
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\SubjectView.baml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\SubjectView.g.cs
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\AlterSubjectView.baml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\AlterSubjectView.g.cs
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\Dynamo.Ioc.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\AlterTestView.baml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\TestView.baml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\AlterTestView.g.cs
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\TestView.g.cs
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\GalaSoft.MvvmLight.WPF4.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\GalaSoft.MvvmLight.WPF4.xml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\QuestionListView.baml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\QuestionListView.g.cs
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\QuestionView.baml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\QuestionView.g.cs
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\QuestionsView.g.cs
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\QuestionsView.baml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\AnswersView.baml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\AnswersView.g.cs
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\AssociatedSubjectsView.baml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\AssociatedSubjectView.baml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\AnswerView.g.cs
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\AssociatedSubjectsView.g.cs
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\AssociatedSubjectView.g.cs
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\Dynamo.Extensions.ServiceLocator.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\Dynamo.Extensions.ServiceLocator.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\obj\x86\Debug\Views\AnswerView.baml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\FluentValidation.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\Wintellect.Sterling.Server.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\Wintellect.Sterling.Server.FileSystem.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\BlackBox.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Admin\bin\Debug\WPFToolkit.Extended.dll
+H:\Development\Domain\UI.Admin\bin\Debug\UI.Admin.exe
+H:\Development\Domain\UI.Admin\bin\Debug\UI.Admin.pdb
+H:\Development\Domain\UI.Admin\bin\Debug\BlkBxFacade.dll
+H:\Development\Domain\UI.Admin\bin\Debug\Domain.Db.dll
+H:\Development\Domain\UI.Admin\bin\Debug\Domain.dll
+H:\Development\Domain\UI.Admin\bin\Debug\Dynamo.Extensions.ServiceLocator.dll
+H:\Development\Domain\UI.Admin\bin\Debug\FVFacade.dll
+H:\Development\Domain\UI.Admin\bin\Debug\GalaSoft.MvvmLight.WPF4.dll
+H:\Development\Domain\UI.Admin\bin\Debug\Infrastructure.dll
+H:\Development\Domain\UI.Admin\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+H:\Development\Domain\UI.Admin\bin\Debug\System.Windows.Interactivity.dll
+H:\Development\Domain\UI.Admin\bin\Debug\UI.Common.dll
+H:\Development\Domain\UI.Admin\bin\Debug\Domain.Db.pdb
+H:\Development\Domain\UI.Admin\bin\Debug\Domain.pdb
+H:\Development\Domain\UI.Admin\bin\Debug\Dynamo.Extensions.ServiceLocator.pdb
+H:\Development\Domain\UI.Admin\bin\Debug\BlkBxFacade.pdb
+H:\Development\Domain\UI.Admin\bin\Debug\FVFacade.pdb
+H:\Development\Domain\UI.Admin\bin\Debug\UI.Common.pdb
+H:\Development\Domain\UI.Admin\bin\Debug\Infrastructure.pdb
+H:\Development\Domain\UI.Admin\bin\Debug\BlackBox.pdb
+H:\Development\Domain\UI.Admin\bin\Debug\BlackBox.xml
+H:\Development\Domain\UI.Admin\bin\Debug\Dynamo.Ioc.pdb
+H:\Development\Domain\UI.Admin\bin\Debug\FluentValidation.pdb
+H:\Development\Domain\UI.Admin\bin\Debug\FluentValidation.xml
+H:\Development\Domain\UI.Admin\bin\Debug\GalaSoft.MvvmLight.WPF4.xml
+H:\Development\Domain\UI.Admin\bin\Debug\Microsoft.Expression.Interactions.xml
+H:\Development\Domain\UI.Admin\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+H:\Development\Domain\UI.Admin\bin\Debug\System.Windows.Interactivity.xml
+H:\Development\Domain\UI.Admin\bin\Debug\Wintellect.Sterling.Server.pdb
+H:\Development\Domain\UI.Admin\bin\Debug\Wintellect.Sterling.Server.FileSystem.pdb
+H:\Development\Domain\UI.Admin\bin\Debug\de\FluentValidation.resources.dll
+H:\Development\Domain\UI.Admin\bin\Debug\es\FluentValidation.resources.dll
+H:\Development\Domain\UI.Admin\bin\Debug\fr\FluentValidation.resources.dll
+H:\Development\Domain\UI.Admin\bin\Debug\it\FluentValidation.resources.dll
+H:\Development\Domain\UI.Admin\bin\Debug\nl\FluentValidation.resources.dll
+H:\Development\Domain\UI.Admin\bin\Debug\pl\FluentValidation.resources.dll
+H:\Development\Domain\UI.Admin\bin\Debug\pt\FluentValidation.resources.dll
+H:\Development\Domain\UI.Admin\bin\Debug\sv\FluentValidation.resources.dll
+H:\Development\Domain\UI.Admin\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+H:\Development\Domain\UI.Admin\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+H:\Development\Domain\UI.Admin\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+H:\Development\Domain\UI.Admin\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+H:\Development\Domain\UI.Admin\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+H:\Development\Domain\UI.Admin\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+H:\Development\Domain\UI.Admin\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+H:\Development\Domain\UI.Admin\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+H:\Development\Domain\UI.Admin\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+H:\Development\Domain\UI.Admin\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\AlterSubjectView.baml
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\AssociatedSubjectView.baml
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\HomeView.baml
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\Shell.baml
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\SubjectView.baml
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\TestView.baml
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\AlterSubjectView.g.cs
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\AlterTestView.g.cs
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\AnswersView.g.cs
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\AnswerView.g.cs
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\AssociatedSubjectsView.g.cs
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\AssociatedSubjectView.g.cs
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\HomeView.g.cs
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\QuestionListView.g.cs
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\QuestionsView.g.cs
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\QuestionView.g.cs
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\Shell.g.cs
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\SubjectsView.g.cs
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\SubjectView.g.cs
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\TestsView.g.cs
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\TestView.g.cs
+H:\Development\Domain\UI.Admin\obj\x86\Debug\App.g.cs
+H:\Development\Domain\UI.Admin\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+H:\Development\Domain\UI.Admin\obj\x86\Debug\UI.Admin_MarkupCompile.cache
+H:\Development\Domain\UI.Admin\obj\x86\Debug\UI.Admin_MarkupCompile.lref
+H:\Development\Domain\UI.Admin\obj\x86\Debug\App.baml
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\AlterTestView.baml
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\AnswersView.baml
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\AnswerView.baml
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\AssociatedSubjectsView.baml
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\QuestionListView.baml
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\QuestionsView.baml
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\QuestionView.baml
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\SubjectsView.baml
+H:\Development\Domain\UI.Admin\obj\x86\Debug\Views\TestsView.baml
+H:\Development\Domain\UI.Admin\obj\x86\Debug\UI.Admin.g.resources
+H:\Development\Domain\UI.Admin\obj\x86\Debug\UI.Admin.Properties.Resources.resources
+H:\Development\Domain\UI.Admin\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\Development\Domain\UI.Admin\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\Development\Domain\UI.Admin\obj\x86\Debug\UI.Admin.exe
+H:\Development\Domain\UI.Admin\obj\x86\Debug\UI.Admin.pdb
+H:\Development\Domain\UI.Admin\bin\Debug\Microsoft.Expression.Interactions.dll
+H:\Development\Domain\UI.Admin\bin\Debug\BlackBox.dll
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\AlterSubjectView.baml
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\HomeView.baml
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\Shell.baml
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\SubjectView.baml
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\TestView.baml
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\AlterSubjectView.g.cs
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\AlterTestView.g.cs
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\AnswersView.g.cs
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\AnswerView.g.cs
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\AssociatedSubjectsView.g.cs
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\HomeView.g.cs
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\QuestionListView.g.cs
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\QuestionsView.g.cs
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\QuestionView.g.cs
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\Shell.g.cs
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\SubjectsView.g.cs
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\SubjectView.g.cs
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\TestsView.g.cs
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\TestView.g.cs
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\App.g.cs
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\UI.Admin_MarkupCompile.cache
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\UI.Admin_MarkupCompile.lref
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\UI.Admin.exe
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\UI.Admin.pdb
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\UI.Admin.exe
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\UI.Admin.pdb
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\BlkBxFacade.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\Domain.Db.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\Domain.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\Dynamo.Extensions.ServiceLocator.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\Dynamo.Ioc.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\FVFacade.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\GalaSoft.MvvmLight.WPF4.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\Infrastructure.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\Microsoft.Expression.Interactions.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\System.Windows.Interactivity.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\UI.Common.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\WPFToolkit.Extended.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\Domain.Db.pdb
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\Domain.pdb
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\Dynamo.Extensions.ServiceLocator.pdb
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\BlkBxFacade.pdb
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\FVFacade.pdb
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\UI.Common.pdb
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\Infrastructure.pdb
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\BlackBox.pdb
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\BlackBox.xml
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\Dynamo.Ioc.pdb
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\FluentValidation.pdb
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\FluentValidation.xml
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\GalaSoft.MvvmLight.WPF4.xml
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\Microsoft.Expression.Interactions.xml
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\System.Windows.Interactivity.xml
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\Wintellect.Sterling.Server.pdb
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\Wintellect.Sterling.Server.FileSystem.pdb
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\AssociatedSubjectView.baml
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\AssociatedSubjectView.g.cs
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\App.baml
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\AlterTestView.baml
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\AnswersView.baml
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\AnswerView.baml
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\AssociatedSubjectsView.baml
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\QuestionListView.baml
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\QuestionsView.baml
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\QuestionView.baml
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\SubjectsView.baml
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\Views\TestsView.baml
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\UI.Admin.g.resources
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\UI.Admin.Properties.Resources.resources
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\Wintellect.Sterling.Server.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\Wintellect.Sterling.Server.FileSystem.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\GalaSoft.MvvmLight.WPF4.pdb
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\BlackBox.dll
+H:\Development\Domain - Copy\UI.Admin\bin\Debug\FluentValidation.dll
+H:\Development\Domain - Copy\Builds\Release\UI.Admin\UI.Admin.exe
+H:\Development\Domain - Copy\Builds\Release\UI.Admin\UI.Admin.pdb

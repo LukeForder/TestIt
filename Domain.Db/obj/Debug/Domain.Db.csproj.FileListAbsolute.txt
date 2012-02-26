@@ -1,0 +1,29 @@
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain.Db\bin\Debug\Domain.Db.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain.Db\bin\Debug\Domain.Db.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain.Db\bin\Debug\Domain.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain.Db\bin\Debug\Infrastructure.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain.Db\bin\Debug\Domain.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain.Db\bin\Debug\Infrastructure.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain.Db\obj\Debug\Domain.Db.csprojResolveAssemblyReference.cache
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain.Db\obj\Debug\Domain.Db.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain.Db\obj\Debug\Domain.Db.pdb
+H:\Development\Domain\Domain.Db\bin\Debug\Domain.Db.dll
+H:\Development\Domain\Domain.Db\bin\Debug\Domain.Db.pdb
+H:\Development\Domain\Domain.Db\bin\Debug\Domain.dll
+H:\Development\Domain\Domain.Db\bin\Debug\Infrastructure.dll
+H:\Development\Domain\Domain.Db\bin\Debug\Domain.pdb
+H:\Development\Domain\Domain.Db\bin\Debug\Infrastructure.pdb
+H:\Development\Domain\Domain.Db\obj\Debug\ResolveAssemblyReference.cache
+H:\Development\Domain\Domain.Db\obj\Debug\Domain.Db.dll
+H:\Development\Domain\Domain.Db\obj\Debug\Domain.Db.pdb
+H:\Development\Domain - Copy\Domain.Db\bin\Debug\Domain.Db.dll
+H:\Development\Domain - Copy\Domain.Db\bin\Debug\Domain.Db.pdb
+H:\Development\Domain - Copy\Domain.Db\bin\Debug\Domain.dll
+H:\Development\Domain - Copy\Domain.Db\bin\Debug\Infrastructure.dll
+H:\Development\Domain - Copy\Domain.Db\bin\Debug\Domain.pdb
+H:\Development\Domain - Copy\Domain.Db\bin\Debug\Infrastructure.pdb
+H:\Development\Domain - Copy\Domain.Db\obj\Debug\ResolveAssemblyReference.cache
+H:\Development\Domain - Copy\Domain.Db\obj\Debug\Domain.Db.dll
+H:\Development\Domain - Copy\Domain.Db\obj\Debug\Domain.Db.pdb
+H:\Development\Domain - Copy\Builds\Debug\Domain.Db\Domain.Db.dll
+H:\Development\Domain - Copy\Builds\Debug\Domain.Db\Domain.Db.pdb

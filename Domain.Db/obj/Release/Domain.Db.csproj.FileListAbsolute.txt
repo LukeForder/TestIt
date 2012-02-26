@@ -1,0 +1,13 @@
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain.Db\obj\Release\Domain.Db.csprojResolveAssemblyReference.cache
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain.Db\bin\Release\Domain.Db.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain.Db\bin\Release\Domain.Db.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain.Db\bin\Release\Domain.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain.Db\bin\Release\Infrastructure.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain.Db\bin\Release\Wintellect.Sterling.Server.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain.Db\bin\Release\Wintellect.Sterling.Server.FileSystem.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain.Db\bin\Release\Domain.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain.Db\bin\Release\Infrastructure.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain.Db\bin\Release\Wintellect.Sterling.Server.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain.Db\bin\Release\Wintellect.Sterling.Server.FileSystem.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain.Db\obj\Release\Domain.Db.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain.Db\obj\Release\Domain.Db.pdb

@@ -1,0 +1,20 @@
+﻿UI.Client
+
+
+winexe
+C#
+.cs
+H:\Development\Domain - Copy\UI.Client\obj\x86\Debug\
+UI.Client
+none
+false
+DEBUG;TRACE
+H:\Development\Domain - Copy\UI.Client\App.xaml
+14-125535508
+1-54415250
+52-1184247499
+281131048996
+Views\AnswerView.xaml;Views\CheckedAnswersView.xaml;Views\OutcomeView.xaml;Views\QuestionListView.xaml;Views\QuestionsDetailsView.xaml;Views\QuestionView.xaml;Views\Shell.xaml;Views\SubjectResultView.xaml;Views\TestEvaluationView.xaml;Views\TestView.xaml;Views\TestPreviewView.xaml;Views\TestSelectionView.xaml;Views\UserRegistrationView.xaml;Views\WelcomeView.xaml;
+
+True
+

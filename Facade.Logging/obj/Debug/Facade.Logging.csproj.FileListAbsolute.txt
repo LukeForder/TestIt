@@ -1,0 +1,32 @@
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Facade.Logging\bin\Debug\BlkBxFacade.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Facade.Logging\bin\Debug\BlkBxFacade.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Facade.Logging\bin\Debug\Infrastructure.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Facade.Logging\bin\Debug\Infrastructure.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Facade.Logging\bin\Debug\BlackBox.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Facade.Logging\bin\Debug\BlackBox.xml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Facade.Logging\obj\Debug\Facade.Logging.csprojResolveAssemblyReference.cache
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Facade.Logging\obj\Debug\BlkBxFacade.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Facade.Logging\obj\Debug\BlkBxFacade.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Facade.Logging\bin\Debug\BlackBox.dll
+H:\Development\Domain\Facade.Logging\bin\Debug\BlkBxFacade.dll
+H:\Development\Domain\Facade.Logging\bin\Debug\BlkBxFacade.pdb
+H:\Development\Domain\Facade.Logging\bin\Debug\Infrastructure.dll
+H:\Development\Domain\Facade.Logging\bin\Debug\Infrastructure.pdb
+H:\Development\Domain\Facade.Logging\bin\Debug\BlackBox.pdb
+H:\Development\Domain\Facade.Logging\bin\Debug\BlackBox.xml
+H:\Development\Domain\Facade.Logging\obj\Debug\ResolveAssemblyReference.cache
+H:\Development\Domain\Facade.Logging\obj\Debug\BlkBxFacade.dll
+H:\Development\Domain\Facade.Logging\obj\Debug\BlkBxFacade.pdb
+H:\Development\Domain\Facade.Logging\bin\Debug\BlackBox.dll
+H:\Development\Domain - Copy\Facade.Logging\bin\Debug\BlkBxFacade.dll
+H:\Development\Domain - Copy\Facade.Logging\bin\Debug\BlkBxFacade.pdb
+H:\Development\Domain - Copy\Facade.Logging\bin\Debug\Infrastructure.dll
+H:\Development\Domain - Copy\Facade.Logging\bin\Debug\Infrastructure.pdb
+H:\Development\Domain - Copy\Facade.Logging\obj\Debug\ResolveAssemblyReference.cache
+H:\Development\Domain - Copy\Facade.Logging\obj\Debug\BlkBxFacade.dll
+H:\Development\Domain - Copy\Facade.Logging\obj\Debug\BlkBxFacade.pdb
+H:\Development\Domain - Copy\Facade.Logging\bin\Debug\BlackBox.dll
+H:\Development\Domain - Copy\Facade.Logging\bin\Debug\BlackBox.pdb
+H:\Development\Domain - Copy\Facade.Logging\bin\Debug\BlackBox.xml
+H:\Development\Domain - Copy\Builds\Debug\Facade.Logging\BlkBxFacade.dll
+H:\Development\Domain - Copy\Builds\Debug\Facade.Logging\BlkBxFacade.pdb

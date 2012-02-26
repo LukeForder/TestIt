@@ -1,0 +1,5 @@
+C:\Users\luke.forder\documents\visual studio 2010\Projects\Domain\Validation\bin\Release\Infrastructure.dll
+C:\Users\luke.forder\documents\visual studio 2010\Projects\Domain\Validation\bin\Release\Infrastructure.pdb
+C:\Users\luke.forder\documents\visual studio 2010\Projects\Domain\Validation\obj\Release\Abstractions.csprojResolveAssemblyReference.cache
+C:\Users\luke.forder\documents\visual studio 2010\Projects\Domain\Validation\obj\Release\Infrastructure.dll
+C:\Users\luke.forder\documents\visual studio 2010\Projects\Domain\Validation\obj\Release\Infrastructure.pdb

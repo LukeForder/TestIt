@@ -1,0 +1,17 @@
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Validation\bin\Debug\Infrastructure.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Validation\bin\Debug\Infrastructure.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Validation\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Validation\obj\Debug\Infrastructure.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Validation\obj\Debug\Infrastructure.pdb
+H:\Development\Domain\Validation\bin\Debug\Infrastructure.dll
+H:\Development\Domain\Validation\bin\Debug\Infrastructure.pdb
+H:\Development\Domain\Validation\obj\Debug\ResolveAssemblyReference.cache
+H:\Development\Domain\Validation\obj\Debug\Infrastructure.dll
+H:\Development\Domain\Validation\obj\Debug\Infrastructure.pdb
+H:\Development\Domain - Copy\Validation\bin\Debug\Infrastructure.dll
+H:\Development\Domain - Copy\Validation\bin\Debug\Infrastructure.pdb
+H:\Development\Domain - Copy\Validation\obj\Debug\ResolveAssemblyReference.cache
+H:\Development\Domain - Copy\Validation\obj\Debug\Infrastructure.dll
+H:\Development\Domain - Copy\Validation\obj\Debug\Infrastructure.pdb
+H:\Development\Domain - Copy\Builds\Debug\Infrastructure\Infrastructure.dll
+H:\Development\Domain - Copy\Builds\Debug\Infrastructure\Infrastructure.pdb

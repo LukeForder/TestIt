@@ -1,0 +1,340 @@
+﻿<UserControl x:Class="UI.Admin.Views.AnswerView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:converter="clr-namespace:UI.Admin.Converters"
+             xmlns:v="clr-namespace:UI.Admin.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300"
+             HorizontalContentAlignment="Stretch">
+    <UserControl.Resources>
+        <converter:TextToParagraphConverter
+            x:Key="TextToParagraphConverter" />
+    </UserControl.Resources>
+    <Border
+        BorderBrush="#AAA"
+        BorderThickness="1">
+        <Expander
+            HorizontalContentAlignment="Stretch"
+            Background="White">
+            <Expander.Template>
+                <ControlTemplate TargetType="Expander">
+                    <DockPanel>
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup
+                                x:Name="ExpansionStates">
+                                <VisualState
+                                    x:Name="Expanded">
+                                    <Storyboard>                                       
+                                        <ObjectAnimationUsingKeyFrames
+                                            Storyboard.TargetName="ContentSite"
+                                            Storyboard.TargetProperty="Visibility">
+                                            <DiscreteObjectKeyFrame
+                                                KeyTime="0">
+                                                <DiscreteObjectKeyFrame.Value>
+                                                    <Visibility>Visible</Visibility>
+                                                </DiscreteObjectKeyFrame.Value>
+                                            </DiscreteObjectKeyFrame>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState
+                                    x:Name="Collapsed">
+                                    <Storyboard>
+                                        <DoubleAnimation
+                                            Storyboard.TargetName="ContentSite"
+                                            Storyboard.TargetProperty="Opacity"
+                                            Duration="00:00:00.0"
+                                            To="0" />
+                                        <DoubleAnimation
+                                            Storyboard.TargetName="ContentSite"
+                                            Storyboard.TargetProperty="(Border.LayoutTransform).(ScaleTransform.ScaleY)"
+                                            To="0"
+                                            Duration="00:00:00.25" />
+                                        <ObjectAnimationUsingKeyFrames
+                                            BeginTime="00:00:00.25"
+                                            Storyboard.TargetName="ContentSite"
+                                            Storyboard.TargetProperty="Visibility">
+                                            <DiscreteObjectKeyFrame
+                                                KeyTime="0">
+                                                <DiscreteObjectKeyFrame.Value>
+                                                    <Visibility>Collapsed</Visibility>
+                                                </DiscreteObjectKeyFrame.Value>
+                                            </DiscreteObjectKeyFrame>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualStateGroup.Transitions>
+                                    <VisualTransition
+                                        From="Collapsed"
+                                        To="Expanded">
+                                        <Storyboard>
+                                            <DoubleAnimation
+                                                BeginTime="00:00:00.20"
+                                                Storyboard.TargetName="ContentSite"
+                                                Storyboard.TargetProperty="Opacity"
+                                                Duration="00:00:00.05"
+                                                To="1" />
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="ContentSite"
+                                                Storyboard.TargetProperty="(Border.LayoutTransform).(ScaleTransform.ScaleY)"
+                                                Duration="00:00:00.25"
+                                                From="0" />
+                                        </Storyboard>
+                                    </VisualTransition>
+                                    <VisualTransition
+                                        To="Collapsed"
+                                        From="Expanded">
+                                        <Storyboard>
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="ContentSite"
+                                                Storyboard.TargetProperty="Opacity"
+                                                Duration="00:00:00.0"
+                                                To="0" />
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="ContentSite"
+                                                Storyboard.TargetProperty="(Border.LayoutTransform).(ScaleTransform.ScaleY)"
+                                                Duration="00:00:00.25"
+                                                To="0" />
+                                        </Storyboard>
+                                    </VisualTransition>
+                                </VisualStateGroup.Transitions>
+                            </VisualStateGroup>
+                            
+                        </VisualStateManager.VisualStateGroups>
+                        <Grid DockPanel.Dock="Top"
+                              Background="{TemplateBinding Background}">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition
+                                    Width="30" />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <ToggleButton
+                                Background="{StaticResource PageBackground}"
+                                VerticalAlignment="Center"
+                                HorizontalAlignment="Center"
+                                Margin="3"
+                                Width="24"
+                                Height="24"
+                                IsChecked="{Binding IsExpanded, Mode=TwoWay, RelativeSource={RelativeSource Mode=TemplatedParent}}">
+                                <ToggleButton.Template>
+                                    <ControlTemplate
+                                        TargetType="ToggleButton">
+                                        <Border
+                                            CornerRadius="10"
+                                            Background="Transparent">
+                                            <VisualStateManager.VisualStateGroups>
+                                                <VisualStateGroup
+                                                    x:Name="CheckStates">
+                                                    <VisualState
+                                                        x:Name="Checked">
+                                                        <Storyboard>
+                                                            <DoubleAnimation
+                                                                Storyboard.TargetName="arrow"
+                                                                Storyboard.TargetProperty="(Path.RenderTransform).(RotateTransform.Angle)"
+                                                                To="180"
+                                                                Duration="00:00:00.2" />
+                                                        </Storyboard>
+                                                    </VisualState>
+                                                    <VisualState
+                                                        x:Name="Unchecked">
+                                                        <Storyboard>
+                                                            <DoubleAnimation
+                                                                Storyboard.TargetName="arrow"
+                                                                Storyboard.TargetProperty="(Path.RenderTransform).(RotateTransform.Angle)"
+                                                                To="0"
+                                                                Duration="00:00:00.2" />
+                                                        </Storyboard>
+                                                    </VisualState>
+                                                    <VisualStateGroup.Transitions>
+                                                        <VisualTransition
+                                                            From="Checked"
+                                                            To="Unchecked" />
+                                                        <VisualTransition
+                                                            From="Unhecked"
+                                                            To="Checked" />
+                                                    </VisualStateGroup.Transitions>
+                                                </VisualStateGroup>
+                                            </VisualStateManager.VisualStateGroups>
+                                            <Viewbox
+                                                Stretch="Uniform"
+                                                Width="{TemplateBinding Width}"
+                                                Height="{TemplateBinding Height}">                                                
+                                                <Canvas
+                                                Width="34"
+                                                Height="34">
+                                                <Canvas
+                                                    Name="layer1">
+                                                    <Canvas>
+                                                        <Canvas.RenderTransform>
+                                                            <TransformGroup>
+                                                                <!--g-->
+                                                                <TranslateTransform
+                                                                    X="0.20830654"
+                                                                    Y="-0.011017" />
+                                                            </TransformGroup>
+                                                        </Canvas.RenderTransform>
+                                                            <Path
+                                                                Name="arrow"
+                                                                Fill="#999"
+                                                                StrokeThickness="1"
+                                                                Data="m 7.1016536 9.808611 -2.125 2.125 10.5000004 10.499999 2.125 2.125 2.125 -2.125 10.5 -10.499999 -2.125 -2.125 -10.5 10.5 -10.5000004 -10.5 z">
+                                                                <Path.RenderTransform>
+                                                                    <RotateTransform
+                                                                        CenterX="17"
+                                                                        CenterY="17"
+                                                                        Angle="0" />
+                                                                </Path.RenderTransform>
+                                                            </Path>
+                                                        </Canvas>
+                                                </Canvas>
+                                            </Canvas>
+                                            </Viewbox>
+                                        </Border>
+                                    </ControlTemplate>
+                                </ToggleButton.Template>
+                            </ToggleButton>
+                                <ContentPresenter
+                                Grid.Column="1"
+                                Margin="5"
+                                DockPanel.Dock="Top"
+                                Content="{TemplateBinding Header}" />
+                        </Grid>
+                        <Border
+                            Background="{TemplateBinding Background}"
+                            x:Name="ContentSite"
+                            OverridesDefaultStyle="True">
+                            <Border.LayoutTransform>
+                                <ScaleTransform
+                                    ScaleY="1" />
+                            </Border.LayoutTransform>
+                            <ContentPresenter />
+                        </Border>
+                    </DockPanel>
+                </ControlTemplate>
+            </Expander.Template>
+            <Expander.Header>
+                <Grid
+                    HorizontalAlignment="Stretch">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition
+                            Width="auto" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        Text="{Binding Text, Converter={StaticResource TextToParagraphConverter}, ConverterParameter=40, Mode=OneWay, TargetNullValue='[This answer has no text.]'}" />
+                    <Button
+                        Grid.Column="1"
+                        HorizontalAlignment="Right"
+                        Command="{Binding RequestRemovalCommand}">
+                        <Image
+                            Source="/UI.Common;component/Resources/Images/delete.png" />
+                    </Button>
+                </Grid>
+            </Expander.Header>
+            <Expander.Content>
+                <Grid
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch">
+                    <Grid.RowDefinitions>
+                        <RowDefinition
+                            Height="auto" />
+                        <RowDefinition
+                            Height="auto" />
+                        <RowDefinition
+                            Height="auto" />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition
+                            Width="auto" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock
+                        Style="{StaticResource Legend}"
+                        VerticalAlignment="Top"
+                        Text="Text:" />
+
+                    <TextBlock
+                        Grid.Row="1"
+                        Style="{StaticResource Legend}"
+                        VerticalAlignment="Top"
+                        Text="Image:" 
+                        />
+
+                    <TextBox
+                        Grid.Column="1"
+                        Text="{
+                            Binding Text, Mode=TwoWay, 
+                            NotifyOnValidationError=True, 
+                            ValidatesOnDataErrors=True, 
+                            UpdateSourceTrigger=PropertyChanged
+                        }"
+                        Height="80"
+                        TextWrapping="Wrap"
+                        />
+
+                    <Grid
+                        Margin="20"
+                        Grid.Row="1"
+                        Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition
+                                Height="auto" />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <StackPanel
+                            HorizontalAlignment="Right"
+                            Orientation="Horizontal">
+                            <Button
+                                Command="{Binding SelectImageCommand}"
+                                Content="Select"
+                                Width="50"
+                                Height="30"
+                                Margin="2"
+                                ToolTip="Select the image to display with this answer." />
+                            <Button
+                                Command="{Binding MakeImageNullCommand}"
+                                ToolTip="Remove this image."
+                                Content="Remove"
+                                Margin="2"
+                                Width="50"
+                                Height="30" />
+                        </StackPanel>
+                        <Image
+                            Margin="20"
+                            Stretch="Uniform"
+                            Grid.Row="1"
+                            Width="128"
+                            Height="128"
+                            Source="{
+                                Binding Image, 
+                                NotifyOnValidationError=True, 
+                                ValidatesOnDataErrors=True,
+                                Mode=OneWay
+                            }" />
+                    </Grid>
+
+                    <TextBlock
+                        Grid.Row="2"    
+                        Style="{StaticResource Legend}"
+                        Text="Marks:" />
+                    <v:AssociatedSubjectsView
+                        HorizontalContentAlignment="Stretch"
+                        Grid.Row="3"
+                        Grid.ColumnSpan="2"
+                        DataContext="{
+                            Binding Subjects, 
+                            NotifyOnValidationError=True,
+                            ValidatesOnDataErrors=True
+                        }" />
+                    
+                </Grid>
+            </Expander.Content>
+        </Expander>
+    </Border>
+</UserControl>

@@ -1,0 +1,57 @@
+﻿<Page
+    x:Class="UI.Client.Views.TestSelectionView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="300"
+    DataContext="{Binding TestSelectionViewModel, Source={StaticResource Locator}}">
+    <Grid
+        Background="{StaticResource MainBackground}">
+
+        <Grid
+            VerticalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition
+                    Height="auto" />
+                <RowDefinition
+                    Height="auto" />
+                <RowDefinition
+                    Height="auto" />
+            </Grid.RowDefinitions>
+            <Image
+                Stretch="None"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Source="/UI.Common;component/Resources/Images/logo-large.png" />
+            <TextBlock
+                Grid.Row="1"
+                FontSize="24"
+                Foreground="White"
+                HorizontalAlignment="Center"
+                Style="{StaticResource TextBase}"
+                Text="Select the test you wish to write." />
+            <ComboBox
+                x:Name="Test"
+                IsSynchronizedWithCurrentItem="True"
+                Margin="10"
+                Grid.Row="2"
+                ItemsSource="{Binding Tests}"
+                DisplayMemberPath="Name"
+                Padding="3"
+                Width="200"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center" />
+            <Button
+                Command="{Binding BeginTestCommand}"
+                CommandParameter="{Binding SelectedItem, ElementName=Test}"
+                HorizontalAlignment="Center"
+                Style="{StaticResource NavigationButton}"
+                Grid.Row="3"
+                Content="Begin!" />
+        </Grid>
+    </Grid>
+</Page>

@@ -1,0 +1,10 @@
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Facade.Logging\bin\Release\BlkBxFacade.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Facade.Logging\bin\Release\BlkBxFacade.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Facade.Logging\bin\Release\BlackBox.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Facade.Logging\bin\Release\Infrastructure.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Facade.Logging\bin\Release\Infrastructure.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Facade.Logging\bin\Release\BlackBox.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Facade.Logging\bin\Release\BlackBox.xml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Facade.Logging\obj\Release\Facade.Logging.csprojResolveAssemblyReference.cache
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Facade.Logging\obj\Release\BlkBxFacade.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Facade.Logging\obj\Release\BlkBxFacade.pdb

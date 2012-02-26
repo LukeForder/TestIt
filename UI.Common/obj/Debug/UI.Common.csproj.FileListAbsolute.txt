@@ -1,0 +1,26 @@
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Common\bin\Debug\UI.Common.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Common\bin\Debug\UI.Common.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Common\obj\Debug\UI.Common.csprojResolveAssemblyReference.cache
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Common\obj\Debug\Themes\Skins.baml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Common\obj\Debug\UI.Common_MarkupCompile.cache
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Common\obj\Debug\UI.Common.g.resources
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Common\obj\Debug\UI.Common.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Common\obj\Debug\UI.Common.pdb
+H:\Development\Domain\UI.Common\bin\Debug\UI.Common.dll
+H:\Development\Domain\UI.Common\bin\Debug\UI.Common.pdb
+H:\Development\Domain\UI.Common\obj\Debug\ResolveAssemblyReference.cache
+H:\Development\Domain\UI.Common\obj\Debug\Themes\Skins.baml
+H:\Development\Domain\UI.Common\obj\Debug\UI.Common_MarkupCompile.cache
+H:\Development\Domain\UI.Common\obj\Debug\UI.Common.g.resources
+H:\Development\Domain\UI.Common\obj\Debug\UI.Common.dll
+H:\Development\Domain\UI.Common\obj\Debug\UI.Common.pdb
+H:\Development\Domain - Copy\UI.Common\bin\Debug\UI.Common.dll
+H:\Development\Domain - Copy\UI.Common\bin\Debug\UI.Common.pdb
+H:\Development\Domain - Copy\UI.Common\obj\Debug\ResolveAssemblyReference.cache
+H:\Development\Domain - Copy\UI.Common\obj\Debug\Themes\Skins.baml
+H:\Development\Domain - Copy\UI.Common\obj\Debug\UI.Common_MarkupCompile.cache
+H:\Development\Domain - Copy\UI.Common\obj\Debug\UI.Common.g.resources
+H:\Development\Domain - Copy\UI.Common\obj\Debug\UI.Common.dll
+H:\Development\Domain - Copy\UI.Common\obj\Debug\UI.Common.pdb
+H:\Development\Domain - Copy\Builds\Debug\UI.Common\UI.Common.dll
+H:\Development\Domain - Copy\Builds\Debug\UI.Common\UI.Common.pdb

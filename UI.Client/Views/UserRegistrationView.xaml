@@ -1,0 +1,79 @@
+﻿<Page x:Class="UI.Client.Views.UserRegistrationView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      Background="{StaticResource MainBackground}"
+      DataContext="{Binding UserRegistrationViewModel, Source={StaticResource Locator}}">
+    <Grid Margin="-150 0 0 0">
+        <Grid.Resources>
+            <Style
+                BasedOn="{StaticResource TextBase}"
+                TargetType="TextBlock">
+                <Setter
+                    Property="Foreground"
+                    Value="White" />
+                <Setter
+                    Property="Margin"
+                    Value="10 0" />
+            </Style>
+        </Grid.Resources>
+        <Grid HorizontalAlignment="Center"
+              VerticalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Image
+                Grid.Column="0"
+                Grid.RowSpan="3"
+                Source="/UI.Common;component/Resources/Images/logo-small.png"
+                Stretch="None"
+                HorizontalAlignment="Center" />
+            <TextBlock
+                Grid.Column="1"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                Text="Welcome"
+                FontSize="34"/>
+            <TextBlock
+                Grid.Column="1"
+                Grid.Row="1"
+                VerticalAlignment="Top"
+                Margin="10 0 0 0">
+                You are about to start an amazing journey into  the<LineBreak /> world of I.T. But before we begin, I have a question.<LineBreak />What is your name?
+            </TextBlock>
+            <StackPanel 
+                Margin="0 0 10 0"
+                Orientation="Horizontal"
+                Grid.Column="1"
+                Grid.Row="2">
+                <TextBlock >
+                    My name is
+                </TextBlock>
+                <TextBox
+                    x:Name="NameTextBox"
+                    FontSize="12"
+                    VerticalAlignment="Center"
+                    Width="200"
+                    Text="{Binding Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+            </StackPanel>
+            <Button
+                Style="{StaticResource HiddenNavigationButton}"
+                Command="{Binding GoToTestPreviewCommand}"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                FontSize="14"
+                Grid.Column="1"
+                Grid.Row="3">
+                All Done
+            </Button>
+        </Grid>
+    </Grid>
+</Page>

@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{43CB4940-D239-4512-BAC8-45353481EEFA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UI.Client</RootNamespace>
+    <AssemblyName>UI.Client</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Builds\Debug\UI.Client\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Builds\Release\UI.Client\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo-small.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BlackBox, Version=1.0.2.0, Culture=neutral, PublicKeyToken=7155736a389caf4b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\BlackBox\BlackBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Dynamo.Ioc">
+      <HintPath>..\Libraries\Dynamo\Dynamo.Ioc.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.WPF4">
+      <HintPath>..\..\..\..\..\Downloads\mvvmlight-961d6f21d793\mvvmlight_961d6f21d793\GalaSoft.MvvmLight\GalaSoft.MvvmLight (NET4)\bin\Release\GalaSoft.MvvmLight.WPF4.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Interactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>Q:\Libraries\#NET\Service Locator\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="ReachFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Windows.Interactivity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Wintellect.Sterling.Server, Version=1.5.4173.19703, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\Sterling\Wintellect.Sterling.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Wintellect.Sterling.Server.FileSystem">
+      <HintPath>..\Libraries\Sterling\Wintellect.Sterling.Server.FileSystem.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Converters\NullConverter.cs" />
+    <Compile Include="Infrastructure\DynamicViewModelLocator.cs" />
+    <Compile Include="Messages\NavigateTo.cs" />
+    <Compile Include="Messages\PrintPage.cs" />
+    <Compile Include="Model\AnswerModel.cs" />
+    <Compile Include="Model\AssessmentModel.cs" />
+    <Compile Include="Model\DefaultAssessmentInterpreter.cs" />
+    <Compile Include="Model\DefaultTestEvaluator.cs" />
+    <Compile Include="Model\IInterpretationBuilder.cs" />
+    <Compile Include="Model\ITestEvaluator.cs" />
+    <Compile Include="Model\OutcomeModel.cs" />
+    <Compile Include="Model\QuestionModel.cs" />
+    <Compile Include="Model\SubjectModel.cs" />
+    <Compile Include="Model\TestModel.cs" />
+    <Compile Include="Model\TextLoader.cs" />
+    <Compile Include="Model\UserModel.cs" />
+    <Compile Include="Model\IUserModel.cs" />
+    <Compile Include="Selectors\AnswerTemplateSelector.cs" />
+    <Compile Include="ViewModels\AnswerViewModel.cs" />
+    <Compile Include="ViewModels\OutcomeViewModel.cs" />
+    <Compile Include="ViewModels\QuestionViewModel.cs" />
+    <Compile Include="Messages\SavePage.cs" />
+    <Compile Include="ViewModels\SetMemberAnswerViewModel.cs" />
+    <Compile Include="ViewModels\ShellViewModel.cs" />
+    <Compile Include="ViewModels\StandAloneAnswerViewModel.cs" />
+    <Compile Include="ViewModels\SubjectResultViewModel.cs" />
+    <Compile Include="ViewModels\TestEvaluationViewModel.cs" />
+    <Compile Include="ViewModels\TestPreviewViewModel.cs" />
+    <Compile Include="ViewModels\TestSelectionViewModel.cs" />
+    <Compile Include="ViewModels\TestViewModel.cs" />
+    <Compile Include="ViewModels\UserRegistrationViewModel.cs" />
+    <Compile Include="ViewModels\WelcomeViewModel.cs" />
+    <Compile Include="Views\AnswerView.xaml.cs">
+      <DependentUpon>AnswerView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CheckedAnswersView.xaml.cs">
+      <DependentUpon>CheckedAnswersView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OutcomeView.xaml.cs">
+      <DependentUpon>OutcomeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QuestionListView.xaml.cs">
+      <DependentUpon>QuestionListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QuestionsDetailsView.xaml.cs">
+      <DependentUpon>QuestionsDetailsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QuestionView.xaml.cs">
+      <DependentUpon>QuestionView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SubjectResultView.xaml.cs">
+      <DependentUpon>SubjectResultView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TestEvaluationView.xaml.cs">
+      <DependentUpon>TestEvaluationView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TestView.xaml.cs">
+      <DependentUpon>TestView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TestPreviewView.xaml.cs">
+      <DependentUpon>TestPreviewView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TestSelectionView.xaml.cs">
+      <DependentUpon>TestSelectionView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserRegistrationView.xaml.cs">
+      <DependentUpon>UserRegistrationView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WelcomeView.xaml.cs">
+      <DependentUpon>WelcomeView.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Views\AnswerView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CheckedAnswersView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\OutcomeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\QuestionListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\QuestionsDetailsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\QuestionView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Shell.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Infrastructure\Bootstrapper.cs" />
+    <Compile Include="Views\Shell.xaml.cs">
+      <DependentUpon>Shell.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Views\SubjectResultView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TestEvaluationView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TestView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TestPreviewView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TestSelectionView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\UserRegistrationView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\WelcomeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="logo-small.ico" />
+    <Content Include="tags.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domain.Db\Domain.Db.csproj">
+      <Project>{50909293-302E-45AB-A503-2D9FC4F7E12E}</Project>
+      <Name>Domain.Db</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain\Domain.csproj">
+      <Project>{E4463E1C-CC28-4865-99F6-6051F5049530}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dynamo.Extensions.ServiceLocator\Dynamo.Extensions.ServiceLocator.csproj">
+      <Project>{D6EB4C1F-65D0-45A2-81F3-E0A30AF6F42D}</Project>
+      <Name>Dynamo.Extensions.ServiceLocator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Facade.Logging\Facade.Logging.csproj">
+      <Project>{7E144C4B-C49C-4D5E-BD22-117AD0565D5F}</Project>
+      <Name>Facade.Logging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UI.Common\UI.Common.csproj">
+      <Project>{0E87B6DF-1B48-4CAA-A1AF-6673ABAD1C03}</Project>
+      <Name>UI.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Validation\Infrastructure.csproj">
+      <Project>{BFD42CAF-88A1-48D5-94CC-5027CB206329}</Project>
+      <Name>Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

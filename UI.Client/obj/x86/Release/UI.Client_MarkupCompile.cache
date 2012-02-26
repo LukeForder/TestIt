@@ -1,0 +1,20 @@
+﻿UI.Client
+
+
+winexe
+C#
+.cs
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Client\obj\x86\Release\
+UI.Client
+none
+false
+TRACE
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Client\App.xaml
+14-125535508
+1-54415250
+51-233826621
+281136137610
+Views\AnswerView.xaml;Views\CheckedAnswersView.xaml;Views\OutcomeView.xaml;Views\QuestionListView.xaml;Views\QuestionsDetailsView.xaml;Views\QuestionView.xaml;Views\Shell.xaml;Views\SubjectResultView.xaml;Views\TestEvaluationView.xaml;Views\TestView.xaml;Views\TestPreviewView.xaml;Views\TestSelectionView.xaml;Views\UserRegistrationView.xaml;Views\WelcomeView.xaml;
+
+False
+

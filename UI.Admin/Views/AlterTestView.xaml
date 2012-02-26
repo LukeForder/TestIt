@@ -1,0 +1,150 @@
+﻿<UserControl x:Class="UI.Admin.Views.AlterTestView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:v="clr-namespace:UI.Admin.Views"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:vm="clr-namespace:UI.Admin.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300"
+             Background="White">
+    <UserControl.Resources>
+        <Style
+            TargetType="{x:Type Button}"
+            BasedOn="{StaticResource FormButton}" />
+        <DataTemplate
+            x:Key="QuestionListItemTemplate"
+            DataType="{x:Type vm:QuestionViewModel}">
+            <v:QuestionListView />
+        </DataTemplate>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition
+                Height="auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Border BorderThickness="0 0 0 1"
+                BorderBrush="#AAA">
+            <DockPanel
+                Background="{StaticResource PageBackground}">
+                <Button
+                    DockPanel.Dock="Right"
+                    Margin="2"
+                    Command="{Binding CancelChangesCommand}"
+                    ToolTip="Cancel subject edit.">
+                    <Image
+                        Stretch="None"
+                        Source="/UI.Common;component/Resources/Images/cancel.png" />
+                </Button>
+                <Button
+                    DockPanel.Dock="Right"
+                    Margin="2"
+                    Command="{Binding SaveChangesCommand}"
+                    ToolTip="Save changes"
+                    Style="{StaticResource HidingButton}">
+                    <Image
+                        Stretch="None"
+                        Source="/UI.Common;component/Resources/Images/success.png" />
+                </Button>
+                <Label />
+            </DockPanel>
+        </Border>
+        
+        <Grid Grid.Row="1"
+              Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="1" />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition
+                    Height="auto" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <TextBlock
+                Style="{StaticResource Legend}"
+                Text="Name:" />
+
+            <TextBlock
+                Grid.Row="1"
+                Style="{StaticResource Legend}"
+                Text="Questions:"/>
+
+            <TextBox
+                Grid.Column="2"
+                Width="500"
+                Style="{StaticResource Field}"
+                Text="{Binding Name, Mode=TwoWay, ValidatesOnDataErrors=True, NotifyOnValidationError=True}"/>
+            
+            <Rectangle
+                HorizontalAlignment="Stretch"
+                Grid.Column="1"
+                Grid.RowSpan="3">
+                <Rectangle.Fill>
+                    <LinearGradientBrush
+                        StartPoint="0 0"
+                        EndPoint="0 .05"
+                        SpreadMethod="Repeat">
+                        <GradientStop
+                            Offset="0"
+                            Color="#CCC" />
+                        <GradientStop
+                            Offset="0.5"
+                            Color="#CCC" />
+                        <GradientStop
+                            Offset="0.5"
+                            Color="Transparent" />
+                        <GradientStop
+                            Offset="1"
+                            Color="Transparent" />
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+
+            <DockPanel
+                Grid.Row="3"
+                Grid.Column="2">
+                <Border 
+                    Background="DarkRed"
+                    CornerRadius="2"
+                    Margin="20 2"
+                    DockPanel.Dock="Top">
+                    <TextBlock
+                        Padding="4"
+                        Foreground="White"
+                        FontSize="12"
+                        Text="{Binding 
+                            ElementName=QuestionsView,
+                            Path=(Validation.Errors)[0].ErrorContent,
+                            TargetNullValue=''
+                        }">
+                        <TextBlock.Style>
+                            <Style
+                                TargetType="TextBlock">
+                                <Style.Triggers>
+                                    <Trigger
+                                        Property="Text"
+                                        Value="">
+                                        <Setter
+                                            Property="Visibility"
+                                            Value="Collapsed" />
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </TextBlock.Style>
+                    </TextBlock>
+                </Border>
+                <v:QuestionsView
+                    x:Name="QuestionsView"
+                    DataContext="{Binding Questions, Mode=OneWay, NotifyOnValidationError=True, ValidatesOnDataErrors=True}" />
+            </DockPanel>
+
+        </Grid>
+        
+    </Grid>
+</UserControl>

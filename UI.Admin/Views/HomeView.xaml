@@ -1,0 +1,112 @@
+﻿<Page x:Class="UI.Admin.Views.HomeView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	    Title="Home">
+    <Canvas>
+        <Canvas
+            Canvas.Left="85"
+            Canvas.Top="4"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            Name="svg2"
+            Width="265"
+            Height="308">
+            <Canvas.Resources>
+                <BlurEffect
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    x:Key="filter3845"
+                    Radius="7" />
+                <BlurEffect
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    x:Key="filter3849"
+                    Radius="7" />
+            </Canvas.Resources>
+            <Canvas
+                Name="layer1">
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <TransformGroup>
+                            <!--g-->
+                            <TranslateTransform
+                                X="-95.714554"
+                                Y="-237.12712" />
+                        </TransformGroup>
+                    </Canvas.RenderTransform>
+                    <Path
+                        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                        Name="path2985"
+                        Stroke="#FF000000"
+                        StrokeThickness="6"
+                        StrokeMiterLimit="4"
+                        StrokeLineJoin="Miter"
+                        StrokeStartLineCap="Flat"
+                        StrokeEndLineCap="Flat"
+                        Effect="{StaticResource filter3849}"
+                        Data="m 128.22241 262.00022 c 0 0 57.55168 168.57569 114.13532 234.62192 62.08777 72.47084 235.1837 163.25087 235.1837 163.25087">
+                        <!--path-->
+                        <Path.RenderTransform>
+                            <MatrixTransform
+                                Matrix="0.66189142,0,0,0.70581187,40.978407,74.887797" />
+                        </Path.RenderTransform>
+                    </Path>
+                    <Path
+                        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                        Name="path12"
+                        Stroke="#FF000000"
+                        StrokeThickness="6"
+                        StrokeMiterLimit="4"
+                        StrokeLineJoin="Miter"
+                        StrokeStartLineCap="Flat"
+                        StrokeEndLineCap="Flat"
+                        Effect="{StaticResource filter3845}"
+                        Data="M 88.571429 352.36218 120 240.93361 l 91.42858 48.57143">
+                        <!--path-->
+                        <Path.RenderTransform>
+                            <MatrixTransform
+                                Matrix="0.62539512,0,0,0.62539512,44.762162,91.837779" />
+                        </Path.RenderTransform>
+                    </Path>
+                </Canvas>
+            </Canvas>
+        </Canvas>
+        <FlowDocumentScrollViewer
+            VerticalScrollBarVisibility="Auto"
+            HorizontalScrollBarVisibility="Auto"
+            BorderThickness="3 0 0 0"
+            Canvas.Left="370"
+            Canvas.Top="200">
+            <FlowDocumentScrollViewer.BorderBrush>
+                <LinearGradientBrush StartPoint="0 0"
+                                     EndPoint="0 0.1"
+                                     SpreadMethod="Repeat">
+                    <GradientStop
+                        Offset="0"
+                        Color="Transparent"/>
+                    <GradientStop
+                        Offset="0.5"
+                        Color="Transparent" />
+                    <GradientStop
+                        Offset="0.5"
+                        Color="Black" />
+                    <GradientStop
+                        Offset="1"
+                        Color="Black"/>
+                </LinearGradientBrush>
+            </FlowDocumentScrollViewer.BorderBrush>
+            <FlowDocument>
+                <Paragraph
+                    FontSize="32"
+                    Margin="0 0 0 5">
+                    Welcome
+                </Paragraph>
+                    <Paragraph Margin="5 0">
+                    Welcome to the I.T. Aptitude Assessment and Interest Analysis Tool administrative interface. You can
+                    view the subjects tested as well as the tests that have been created by using the navigation panel on the top left.                
+                </Paragraph>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </Canvas>
+</Page>

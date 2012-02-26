@@ -1,0 +1,20 @@
+﻿UI.Admin
+
+
+winexe
+C#
+.cs
+H:\Development\Domain - Copy\UI.Admin\obj\x86\Debug\
+UI.Admin
+none
+false
+DEBUG;TRACE
+H:\Development\Domain - Copy\UI.Admin\App.xaml
+151026977755
+
+491528631165
+29-667417678
+Views\AlterSubjectView.xaml;Views\AlterTestView.xaml;Views\AnswersView.xaml;Views\AnswerView.xaml;Views\AssociatedSubjectsView.xaml;Views\AssociatedSubjectView.xaml;Views\HomeView.xaml;Views\QuestionListView.xaml;Views\QuestionsView.xaml;Views\QuestionView.xaml;Views\Shell.xaml;Views\SubjectsView.xaml;Views\SubjectView.xaml;Views\TestsView.xaml;Views\TestView.xaml;
+
+False
+

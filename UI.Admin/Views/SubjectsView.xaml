@@ -1,0 +1,94 @@
+﻿<Page x:Class="UI.Admin.Views.SubjectsView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:v="clr-namespace:UI.Admin.Views"
+      xmlns:vm="clr-namespace:UI.Admin.ViewModels"
+      xmlns:templating="clr-namespace:UI.Admin.Infrastructure.Templating"
+      mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="300"
+    Background="{StaticResource PageBackground}"
+    Title="SubjectsView"
+    DataContext="{Binding SubjectsViewModel, Source={StaticResource Locator}}">
+    <Page.Resources>
+            <DataTemplate
+            x:Key="SubjectViewTemplate"
+            DataType="{x:Type vm:SubjectViewModel}">
+            <v:SubjectView />
+        </DataTemplate>
+        <DataTemplate
+            x:Key="EditingSubjectViewTemplate"
+            DataType="{x:Type vm:EditingSubjectViewModel}">
+            <v:AlterSubjectView />
+        </DataTemplate>
+        <templating:SubjectTemplateSelector
+            x:Key="SubjectTemplateSelector" />
+    </Page.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition
+                Height="auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <ListBox
+            BorderBrush="Transparent"
+            BorderThickness="0"
+            ItemsSource="{Binding Errors}" />
+        <Grid
+            Grid.Row="1"
+            Margin="80">
+            <Grid.RowDefinitions>
+                <RowDefinition
+                    Height="auto" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <TextBlock
+                FontSize="38"
+                DockPanel.Dock="Left"
+                Text="Subjects" 
+                Padding="3"/>
+            <Button
+                FontSize="24"
+                Cursor="Hand"
+                VerticalAlignment="Bottom"
+                Grid.Column="1"
+                Padding="3"
+                HorizontalAlignment="Right"
+                Command="{Binding NewSubjectCommand}"
+                Content="New">
+                <Button.Style>
+                    <Style
+                        TargetType="Button">
+                        <Setter
+                            Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate
+                                    TargetType="Button">
+                                    <ContentPresenter />
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <ScrollViewer
+                Grid.Row="1"
+                Grid.ColumnSpan="2"
+                DockPanel.Dock="Bottom"
+                VerticalScrollBarVisibility="Auto">
+                <ItemsControl
+                    Background="White"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    ItemsSource="{Binding Subjects}"
+                ItemTemplateSelector="{StaticResource SubjectTemplateSelector}" />
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Page>

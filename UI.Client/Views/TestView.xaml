@@ -1,0 +1,279 @@
+﻿<Page
+    x:Class="UI.Client.Views.TestView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+    xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+    xmlns:v="clr-namespace:UI.Client.Views"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="300"
+    DataContext="{Binding TestViewModel, Source={StaticResource Locator}}">
+    
+    <DockPanel>
+        
+        <Grid
+            Height="65"
+            DockPanel.Dock="Top"
+            Background="{StaticResource MainBackground}">
+            <StackPanel
+                DockPanel.Dock="Top"
+                Orientation="Horizontal">
+                <TextBlock
+                    VerticalAlignment="Center"
+                    Margin="10 0"
+                    Foreground="White"
+                    FontSize="22"
+                    Text="{Binding Name}" />
+            </StackPanel>
+        </Grid>
+        <ContentControl
+            VerticalContentAlignment="Stretch"
+            Content="{Binding Context}">
+            <ContentControl.Template>
+                <ControlTemplate>
+                    <Grid
+                        VerticalAlignment="Stretch">
+                        <VisualStateManager.CustomVisualStateManager>
+                            <ei:ExtendedVisualStateManager />
+                        </VisualStateManager.CustomVisualStateManager>
+                        <i:Interaction.Behaviors>
+                            <ei:DataStateBehavior
+                                Binding="{Binding IsReviewing}"
+                                Value="True"
+                                TrueState="AsQuestionList"
+                                FalseState="AsQuestion" />
+                        </i:Interaction.Behaviors>
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup
+                                x:Name="BehaviorStates">
+                                <VisualState
+                                    x:Name="AsQuestionList">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames
+                                            Duration="0"
+                                            Storyboard.TargetName="List"
+                                            Storyboard.TargetProperty="Visibility">
+                                            <DiscreteObjectKeyFrame>
+                                                <DiscreteObjectKeyFrame.Value>
+                                                    <Visibility>
+                                                        Visible
+                                                    </Visibility>
+                                                </DiscreteObjectKeyFrame.Value>
+                                            </DiscreteObjectKeyFrame>
+                                        </ObjectAnimationUsingKeyFrames>
+                                        <ObjectAnimationUsingKeyFrames
+                                            Duration="0"
+                                            Storyboard.TargetName="Single"
+                                            Storyboard.TargetProperty="Visibility">
+                                            <DiscreteObjectKeyFrame>
+                                                <DiscreteObjectKeyFrame.Value>
+                                                    <Visibility>
+                                                        Collapsed
+                                                    </Visibility>
+                                                </DiscreteObjectKeyFrame.Value>
+                                            </DiscreteObjectKeyFrame>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState
+                                    x:Name="AsQuestion">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames
+                                            Duration="0"
+                                            Storyboard.TargetName="List"
+                                            Storyboard.TargetProperty="Visibility">
+                                            <DiscreteObjectKeyFrame>
+                                                <DiscreteObjectKeyFrame.Value>
+                                                    <Visibility>
+                                                        Collapsed
+                                                    </Visibility>
+                                                </DiscreteObjectKeyFrame.Value>
+                                            </DiscreteObjectKeyFrame>
+                                        </ObjectAnimationUsingKeyFrames>
+                                        <ObjectAnimationUsingKeyFrames
+                                            Duration="0"
+                                            Storyboard.TargetName="Single"
+                                            Storyboard.TargetProperty="Visibility">
+                                            <DiscreteObjectKeyFrame>
+                                                <DiscreteObjectKeyFrame.Value>
+                                                    <Visibility>
+                                                        Visible
+                                                    </Visibility>
+                                                </DiscreteObjectKeyFrame.Value>
+                                            </DiscreteObjectKeyFrame>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState> 
+                                <!-- Something odd going on here, transition sometimes crashes -->
+                                <!--
+                                <VisualStateGroup.Transitions>
+                                    <VisualTransition
+                                        From="AsQuestion"
+                                        To="AsQuestionList">
+                                        <Storyboard>
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="Single"
+                                                Storyboard.TargetProperty="Opacity"
+                                                Duration="00:00:00.2"
+                                                To="0"/>
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="List"
+                                                Storyboard.TargetProperty="Opacity"
+                                                BeginTime="00:00:00.2"
+                                                Duration="00:00:00.2"
+                                                To="1"/>
+                                        </Storyboard>
+                                    </VisualTransition>
+                                    <VisualTransition
+                                        From="AsQuestionList"
+                                        To="AsQuestion">
+                                        <Storyboard>
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="List"
+                                                Storyboard.TargetProperty="Opacity"
+                                                Duration="00:00:00.2"
+                                                To="0" />
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="Single"
+                                                Storyboard.TargetProperty="Opacity"
+                                                BeginTime="00:00:00.2"
+                                                Duration="00:00:00.2" />
+                                        </Storyboard>
+                                    </VisualTransition>
+                                </VisualStateGroup.Transitions> -->
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <DockPanel
+                            x:Name="TestFinished"
+                            Visibility="Collapsed">
+                            <Grid DockPanel.Dock="Bottom"
+                                  Background="{StaticResource MainBackground}">
+                                <Button
+                                    FontSize="22"
+                                    Margin="5"
+                                    Command="{Binding GoToTestEvaluationCommand}"
+                                    HorizontalAlignment="Right"
+                                    Content="Done"
+                                    Style="{StaticResource NavigationButton}" />
+                                <Button
+                                    FontSize="22"
+                                    Margin="5"
+                                    Command="{Binding GoToQuestionsReviewCommand}"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Content="Review"
+                                    Style="{StaticResource NavigationArrowlessButton}" />
+                                <Button
+                                    FontSize="22"
+                                    Margin="5"
+                                    Command="{Binding GoToPreviousQuestionCommand}"
+                                    HorizontalAlignment="Left"
+                                    Content="Back"
+                                    Style="{StaticResource NavigationLeftButton}" />
+                            </Grid>
+                            <TextBlock
+                                Margin="20"
+                                FontSize="14"
+                                TextWrapping="Wrap">
+                                You have reached the end of the test. If you need to review any questions that you have missed, click the review button to see a list all all the questions. 
+                                Otherwise click done to assess the test and get your results... Good luck!
+                            </TextBlock>
+                        </DockPanel>
+                        <ScrollViewer
+                            Padding="10"
+                            x:Name="List"
+                            Visibility="Collapsed">
+                            <v:QuestionListView
+                                Margin="{TemplateBinding Margin}" />
+                        </ScrollViewer>
+                        <DockPanel
+                            x:Name="Single">
+                            <Grid
+                                Height="65"
+                                Background="{StaticResource MainBackground}"
+                                DockPanel.Dock="Bottom">
+                                <Grid.Resources>
+                                    <Style
+                                        TargetType="{x:Type Button}">
+                                        <Setter
+                                            Property="Margin"
+                                            Value="5" />
+                                    </Style>
+                                </Grid.Resources>
+                                <Button
+                                    Command="{Binding GoToPreviousQuestionCommand}"
+                                    FontSize="22"
+                                    Style="{StaticResource NavigationLeftButton}"
+                                    Margin="5"
+                                    Content="Back"
+                                    HorizontalAlignment="Left" />
+                                <Button
+                                    Command="{Binding GoToQuestionsReviewCommand}"
+                                    Style="{StaticResource NavigationArrowlessButton}"
+                                    Margin="5"
+                                    FontSize="22"
+                                    Content="Review"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center" />
+                                <Button
+                                    Command="{Binding GoToNextQuestionCommand}"
+                                    FontSize="22"
+                                    Style="{StaticResource NavigationButton}"
+                                    Margin="5"
+                                    Content="Next"
+                                    HorizontalAlignment="Right" />
+                            </Grid>
+                            <ScrollViewer
+                                Padding="10">
+                                <v:QuestionView
+                                    Margin="{TemplateBinding Margin}"
+                                    DataContext="{Binding Context, Mode=OneWay}" />
+                            </ScrollViewer>
+                        </DockPanel>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <DataTrigger
+                            Binding="{Binding IsFinished}"
+                            Value="true">
+                            <Setter
+                                TargetName="TestFinished"
+                                Property="Canvas.ZIndex"
+                                Value="1" />
+                            <Setter
+                                TargetName="TestFinished"
+                                Property="Visibility"
+                                Value="Visible" />
+                            <Setter
+                                TargetName="List"
+                                Property="IsEnabled"
+                                Value="False" />
+                            <Setter
+                                TargetName="Single"
+                                Property="IsEnabled"
+                                Value="False" />
+                            <Setter
+                                TargetName="List"
+                                Property="Opacity"
+                                Value="0" />
+                            <Setter
+                                TargetName="Single"
+                                Property="Opacity"
+                                Value="0" />
+                        </DataTrigger>
+                        <DataTrigger
+                            Binding="{Binding IsFinished}"
+                            Value="false">
+                            <Setter
+                                TargetName="TestFinished"
+                                Property="Visibility"
+                                Value="Collapsed" />
+                        </DataTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </ContentControl.Template>
+        </ContentControl>
+    </DockPanel>
+</Page>

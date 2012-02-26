@@ -1,0 +1,7 @@
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain\bin\Release\Domain.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain\bin\Release\Domain.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain\bin\Release\Infrastructure.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain\bin\Release\Infrastructure.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain\obj\Release\Domain.csprojResolveAssemblyReference.cache
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain\obj\Release\Domain.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain\obj\Release\Domain.pdb

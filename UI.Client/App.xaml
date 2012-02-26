@@ -1,0 +1,15 @@
+﻿<Application x:Class="UI.Client.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:infrastructure="clr-namespace:UI.Client.Infrastructure">
+    <Application.Resources>
+        <ResourceDictionary>
+            <infrastructure:DynamicViewModelLocator
+                x:Key="Locator" />
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary
+                    Source="/UI.Common;component/Themes/Skins.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

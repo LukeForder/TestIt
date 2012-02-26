@@ -1,0 +1,727 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <SolidColorBrush
+        x:Key="MainBackground"
+        Color="#2c5aa0" />
+    <Style
+        TargetType="Image"
+        x:Key="LogoStyle">
+        <Setter
+            Property="Width"
+            Value="309" />
+        <Setter
+            Property="Height"
+            Value="319" />
+        <Setter
+            Property="Stretch"
+            Value="None" />
+    </Style>
+
+    <Style
+        x:Key="WhiteText"
+        TargetType="TextBlock">
+        <Setter
+            Property="Foreground"
+            Value="White" />
+        <Setter
+            Property="FontFamily"
+            Value="Sans" />
+    </Style>
+    
+    <Style
+        TargetType="ContentControl">
+        <Setter
+            Property="HorizontalContentAlignment"
+            Value="Stretch" />
+        <Setter
+            Property="VerticalContentAlignment"
+            Value="Stretch" />
+    </Style>
+
+    <Style
+        x:Key="HiddenNavigationButton"
+        TargetType="Button">
+        <Setter
+            Property="Cursor"
+            Value="Hand" />
+        <Setter
+            Property="Foreground"
+            Value="#3771c8" />
+        <Setter
+            Property="VerticalContentAlignment"
+            Value="Center" />
+        <Setter
+            Property="HorizontalContentAlignment"
+            Value="Center" />
+        <Setter
+            Property="Template">
+            <Setter.Value>
+                <ControlTemplate
+                    TargetType="Button">
+                    <Border
+                        CornerRadius="5"
+                        Height="auto"
+                        Margin="{TemplateBinding Margin}">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup
+                                x:Name="CommonStates">
+                                <VisualStateGroup.Transitions>
+                                    <VisualTransition
+                                        From="MouseOver"
+                                        To="Normal">
+                                        <Storyboard>
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="Mask"
+                                                Storyboard.TargetProperty="Opacity"
+                                                To="0.12"
+                                                Duration="00:00:00.1" />
+                                        </Storyboard>
+                                    </VisualTransition>
+                                </VisualStateGroup.Transitions>
+                                <VisualState
+                                    x:Name="Normal" />
+                                <VisualState
+                                    x:Name="MouseOver">
+                                    <Storyboard>
+                                        <DoubleAnimation
+                                            Storyboard.TargetName="Mask"
+                                            Storyboard.TargetProperty="Opacity"
+                                            To="0.06"
+                                            Duration="00:00:00.15" />
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState
+                                    x:Name="Disabled">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames
+                                            Storyboard.TargetName="root"
+                                            Storyboard.TargetProperty="Visibility">
+                                            <DiscreteObjectKeyFrame
+                                                KeyTime="0">
+                                                <DiscreteObjectKeyFrame.Value>
+                                                    <Visibility>
+                                                        Hidden
+                                                    </Visibility>
+                                                </DiscreteObjectKeyFrame.Value>
+                                            </DiscreteObjectKeyFrame>
+                                        </ObjectAnimationUsingKeyFrames>
+
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <Grid
+                            Height="auto"
+                            x:Name="root">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition
+                                    Width="auto" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition
+                                    Height="auto" />
+                                <RowDefinition
+                                    Height="auto" />
+                            </Grid.RowDefinitions>
+                            <Border
+                                x:Name="Mask"
+                                Canvas.ZIndex="1"
+                                Opacity="0.12"
+                                Background="Black"
+                                Grid.ColumnSpan="2"
+                                CornerRadius="5 5 0 0" />
+                            <Border
+                                CornerRadius="5 0 0 5"
+                                Grid.RowSpan="2"
+                                Grid.Column="0"
+                                Background="White"
+                                MinWidth="100"
+                                Height="auto">
+                                <ContentPresenter
+                                    Margin="{TemplateBinding Padding}"
+                                    HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                    VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                            </Border>
+                            <Border
+                                Height="auto"
+                                Width="{Binding RelativeSource={RelativeSource Self}, Path=Height}"
+                                Grid.RowSpan="2"
+                                Grid.Column="1"
+                                CornerRadius="0 5 5 0"
+                                Background="#3771c8">
+                                <Viewbox
+                                    Margin="7">
+                                    <Canvas
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                                        Width="26"
+                                        Height="30">
+                                        <Canvas
+                                            Name="layer1">
+                                            <Canvas>
+                                                <Canvas.RenderTransform>
+                                                    <TransformGroup>
+                                                        <!--g-->
+                                                        <TranslateTransform
+                                                            X="-361.76213"
+                                                            Y="-517.39761" />
+                                                    </TransformGroup>
+                                                </Canvas.RenderTransform>
+                                                <Path
+                                                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                                                    Name="path5195"
+                                                    Fill="#FFFFFFFF"
+                                                    StrokeThickness="1"
+                                                    Data="m 1026.0434 823.95873 -1.1747 -31.59655 1.1747 -31.59654 27.9507 14.78094 26.7761 16.8156 -26.7761 16.8156 z">
+                                                    <!--path-->
+                                                    <Path.RenderTransform>
+                                                        <MatrixTransform
+                                                            Matrix="0.47361392,0,0,0.47361392,-123.62994,157.08842" />
+                                                    </Path.RenderTransform>
+                                                </Path>
+                                            </Canvas>
+                                        </Canvas>
+                                    </Canvas>
+                                </Viewbox>
+                            </Border>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style
+        x:Key="NavigationButton"
+        TargetType="Button">
+        <Setter
+            Property="Cursor"
+            Value="Hand" />
+        <Setter
+            Property="Foreground"
+            Value="#3771c8" />
+        <Setter
+            Property="VerticalContentAlignment"
+            Value="Center" />
+        <Setter
+            Property="HorizontalContentAlignment"
+            Value="Center" />
+        <Setter
+            Property="Template">
+            <Setter.Value>
+                <ControlTemplate
+                    TargetType="Button">
+                    <Border CornerRadius="5"
+                            Height="auto"
+                            Margin="{TemplateBinding Margin}">                        
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup
+                                x:Name="CommonStates">
+                                <VisualStateGroup.Transitions>
+                                    <VisualTransition
+                                        From="MouseOver"
+                                        To="Normal">
+                                        <Storyboard>
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="Mask"
+                                                Storyboard.TargetProperty="Opacity"
+                                                To="0.12"
+                                                Duration="00:00:00.1" />
+                                        </Storyboard>
+                                    </VisualTransition>
+                                </VisualStateGroup.Transitions>
+                                <VisualState
+                                    x:Name="Normal" />
+                                <VisualState
+                                    x:Name="MouseOver">
+                                    <Storyboard>
+                                        <DoubleAnimation
+                                            Storyboard.TargetName="Mask"
+                                            Storyboard.TargetProperty="Opacity"
+                                            To="0.06"
+                                            Duration="00:00:00.15" />
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState
+                                    x:Name="Disabled">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames
+                                            Storyboard.TargetName="root"
+                                            Storyboard.TargetProperty="Visibility">
+                                            <DiscreteObjectKeyFrame
+                                                KeyTime="0">
+                                                <DiscreteObjectKeyFrame.Value>
+                                                    <Visibility>
+                                                        Collapsed
+                                                    </Visibility>
+                                                </DiscreteObjectKeyFrame.Value>
+                                            </DiscreteObjectKeyFrame>
+                                        </ObjectAnimationUsingKeyFrames>
+
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <Grid
+                            Height="auto"
+                            x:Name="root">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition Width="auto" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto" />
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Border
+                                x:Name="Mask"
+                                Canvas.ZIndex="1"
+                                Opacity="0.12"
+                                Background="Black"
+                                Grid.ColumnSpan="2"
+                                CornerRadius="5 5 0 0" />
+                            <Border CornerRadius="5 0 0 5"
+                                    Grid.RowSpan="2"
+                                    Grid.Column="0"
+                                    Background="White"
+                                    MinWidth="100"
+                                    Height="auto">
+                                <ContentPresenter
+                                    Margin="{TemplateBinding Padding}"
+                                    HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                    VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Border>
+                            <Border
+                                Height="auto"
+                                Width="{Binding RelativeSource={RelativeSource Self}, Path=Height}"
+                                Grid.RowSpan="2"
+                                Grid.Column="1"
+                                CornerRadius="0 5 5 0"
+                                Background="#3771c8">
+                                <Viewbox Margin="7">
+                                    <Canvas
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                                        Width="26"
+                                        Height="30">
+                                        <Canvas
+                                            Name="layer1">
+                                            <Canvas>
+                                                <Canvas.RenderTransform>
+                                                    <TransformGroup>
+                                                        <!--g-->
+                                                        <TranslateTransform
+                                                            X="-361.76213"
+                                                            Y="-517.39761" />
+                                                    </TransformGroup>
+                                                </Canvas.RenderTransform>
+                                                <Path
+                                                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                                                    Name="path5195"
+                                                    Fill="#FFFFFFFF"
+                                                    StrokeThickness="1"
+                                                    Data="m 1026.0434 823.95873 -1.1747 -31.59655 1.1747 -31.59654 27.9507 14.78094 26.7761 16.8156 -26.7761 16.8156 z">
+                                                    <!--path-->
+                                                    <Path.RenderTransform>
+                                                        <MatrixTransform
+                                                            Matrix="0.47361392,0,0,0.47361392,-123.62994,157.08842" />
+                                                    </Path.RenderTransform>
+                                                </Path>
+                                            </Canvas>
+                                        </Canvas>
+                                    </Canvas>
+                                </Viewbox>
+                            </Border>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style
+        x:Key="NavigationLeftButton"
+        TargetType="Button">
+        <Setter
+            Property="Cursor"
+            Value="Hand" />
+        <Setter
+            Property="Foreground"
+            Value="#3771c8" />
+        <Setter
+            Property="VerticalContentAlignment"
+            Value="Center" />
+        <Setter
+            Property="HorizontalContentAlignment"
+            Value="Center" />
+        <Setter
+            Property="Template">
+            <Setter.Value>
+                <ControlTemplate
+                    TargetType="Button">
+                    <Border
+                        CornerRadius="5"
+                        Height="auto"
+                        Margin="{TemplateBinding Margin}">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup
+                                x:Name="CommonStates">
+                                <VisualStateGroup.Transitions>
+                                    <VisualTransition
+                                        From="MouseOver"
+                                        To="Normal">
+                                        <Storyboard>
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="Mask"
+                                                Storyboard.TargetProperty="Opacity"
+                                                To="0.12"
+                                                Duration="00:00:00.1" />
+                                        </Storyboard>
+                                    </VisualTransition>
+                                </VisualStateGroup.Transitions>
+                                <VisualState
+                                    x:Name="Normal" />
+                                <VisualState
+                                    x:Name="MouseOver">
+                                    <Storyboard>
+                                        <DoubleAnimation
+                                            Storyboard.TargetName="Mask"
+                                            Storyboard.TargetProperty="Opacity"
+                                            To="0.06"
+                                            Duration="00:00:00.15" />
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState
+                                    x:Name="Disabled">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames
+                                            Storyboard.TargetName="root"
+                                            Storyboard.TargetProperty="Visibility">
+                                            <DiscreteObjectKeyFrame
+                                                KeyTime="0">
+                                                <DiscreteObjectKeyFrame.Value>
+                                                    <Visibility>
+                                                        Hidden
+                                                    </Visibility>
+                                                </DiscreteObjectKeyFrame.Value>
+                                            </DiscreteObjectKeyFrame>
+                                        </ObjectAnimationUsingKeyFrames>
+
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <Grid
+                            Height="auto"
+                            x:Name="root">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition
+                                    Width="auto" />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition
+                                    Height="auto" />
+                                <RowDefinition
+                                    Height="auto" />
+                            </Grid.RowDefinitions>
+                            <Border
+                                x:Name="Mask"
+                                Canvas.ZIndex="1"
+                                Opacity="0.12"
+                                Background="Black"
+                                Grid.ColumnSpan="2"
+                                CornerRadius="5 5 0 0" />
+                            <Border
+                                CornerRadius="0 5 5 0"
+                                Grid.RowSpan="2"
+                                Grid.Column="1"
+                                Background="White"
+                                MinWidth="100"
+                                Height="auto">
+                                <ContentPresenter
+                                    Margin="{TemplateBinding Padding}"
+                                    HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                    VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                            </Border>
+                            <Border
+                                Height="auto"
+                                Width="{Binding RelativeSource={RelativeSource Self}, Path=Height}"
+                                Grid.RowSpan="2"
+                                Grid.Column="0"
+                                CornerRadius="5 0 0 5"
+                                Background="#3771c8">
+                                <Viewbox
+                                    Margin="7">
+                                    <Canvas
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                                        Width="26"
+                                        Height="30">
+                                        <Canvas.RenderTransform>
+                                            <RotateTransform
+                                                CenterX="13"
+                                                CenterY="15"
+                                                Angle="180" />
+                                        </Canvas.RenderTransform>
+                                        <Canvas
+                                            Name="layer1">
+                                            <Canvas>
+                                                <Canvas.RenderTransform>
+                                                    <TransformGroup>
+                                                        <!--g-->
+                                                        <TranslateTransform
+                                                            X="-361.76213"
+                                                            Y="-517.39761" />
+                                                    </TransformGroup>
+                                                </Canvas.RenderTransform>
+                                                <Path
+                                                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                                                    Name="path5195"
+                                                    Fill="#FFFFFFFF"
+                                                    StrokeThickness="1"
+                                                    Data="m 1026.0434 823.95873 -1.1747 -31.59655 1.1747 -31.59654 27.9507 14.78094 26.7761 16.8156 -26.7761 16.8156 z">
+                                                    <!--path-->
+                                                    <Path.RenderTransform>
+                                                        <MatrixTransform
+                                                            Matrix="0.47361392,0,0,0.47361392,-123.62994,157.08842" />
+                                                    </Path.RenderTransform>
+                                                </Path>
+                                            </Canvas>
+                                        </Canvas>
+                                    </Canvas>
+                                </Viewbox>
+                            </Border>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style
+        x:Key="NavigationArrowlessButton"
+        TargetType="Button">
+        <Setter
+            Property="Cursor"
+            Value="Hand" />
+        <Setter
+            Property="Foreground"
+            Value="#3771c8" />
+        <Setter
+            Property="VerticalContentAlignment"
+            Value="Center" />
+        <Setter
+            Property="HorizontalContentAlignment"
+            Value="Center" />
+        <Setter
+            Property="Template">
+            <Setter.Value>
+                <ControlTemplate
+                    TargetType="Button">
+                    <Border
+                        CornerRadius="5"
+                        Height="auto"
+                        Margin="{TemplateBinding Margin}">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup
+                                x:Name="CommonStates">
+                                <VisualStateGroup.Transitions>
+                                    <VisualTransition
+                                        From="MouseOver"
+                                        To="Normal">
+                                        <Storyboard>
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="Mask"
+                                                Storyboard.TargetProperty="Opacity"
+                                                To="0.12"
+                                                Duration="00:00:00.1" />
+                                        </Storyboard>
+                                    </VisualTransition>
+                                </VisualStateGroup.Transitions>
+                                <VisualState
+                                    x:Name="Normal" />
+                                <VisualState
+                                    x:Name="MouseOver">
+                                    <Storyboard>
+                                        <DoubleAnimation
+                                            Storyboard.TargetName="Mask"
+                                            Storyboard.TargetProperty="Opacity"
+                                            To="0.06"
+                                            Duration="00:00:00.15" />
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState
+                                    x:Name="Disabled">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames
+                                            Storyboard.TargetName="root"
+                                            Storyboard.TargetProperty="Visibility">
+                                            <DiscreteObjectKeyFrame
+                                                KeyTime="0">
+                                                <DiscreteObjectKeyFrame.Value>
+                                                    <Visibility>
+                                                        Hidden
+                                                    </Visibility>
+                                                </DiscreteObjectKeyFrame.Value>
+                                            </DiscreteObjectKeyFrame>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <Grid
+                            Height="auto"
+                            x:Name="root">
+                            <Grid.RowDefinitions>
+                                <RowDefinition
+                                    Height="auto" />
+                                <RowDefinition
+                                    Height="auto" />
+                            </Grid.RowDefinitions>
+                            <Border
+                                x:Name="Mask"
+                                Canvas.ZIndex="1"
+                                Opacity="0.12"
+                                Background="Black"
+                                Grid.ColumnSpan="2"
+                                CornerRadius="5 5 0 0" />
+                            <Border
+                                CornerRadius="5 5 5 5"
+                                Grid.RowSpan="2"
+                                Background="White"
+                                MinWidth="100"
+                                Height="auto">
+                                <ContentPresenter
+                                    Margin="{TemplateBinding Padding}"
+                                    HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                    VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                            </Border>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style
+        x:Key="SmallLogo"
+        TargetType="Image">
+        <Setter
+            Property="Width"
+            Value="241" />
+        <Setter
+            Property="Height"
+            Value="246" />
+        <Setter
+            Property="Stretch"
+            Value="None" />
+    </Style>
+
+    <Style
+        x:Key="ParagraphHeading"
+        TargetType="TextBlock">
+        <Setter
+            Property="FontSize"
+            Value="20" />
+        <Setter
+            Property="FontWeight"
+            Value="Bold" />
+    </Style>
+
+    <Style
+        x:Key="BorderlessScrollViewer"
+        TargetType="ScrollViewer">
+        <Setter
+            Property="BorderBrush"
+            Value="Transparent" />
+        <Setter
+            Property="VerticalScrollBarVisibility"
+            Value="Auto" />
+    </Style>
+
+    <Style
+        x:Key="TextBase">
+        <Style.Resources>
+            <sys:Double
+                x:Key="FontSizeInt">18</sys:Double>
+            <Thickness
+                x:Key="PaddingInt">3</Thickness>
+        </Style.Resources>
+        <Setter
+            Property="TextBox.Template">
+            <Setter.Value>
+                <ControlTemplate
+                    TargetType="TextBox">
+                    <Grid>
+                        <Border
+                            BorderBrush="#999"
+                            BorderThickness="1">
+                            <ScrollViewer
+                                Name="PART_ContentHost" />
+                        </Border>
+                        <Popup
+                            x:Name="ErrorView"
+                            AllowsTransparency="True"
+                            PopupAnimation="Slide">
+                            <Border
+                                Background="DarkRed"
+                                Padding="4"
+                                CornerRadius="2">
+                                <TextBlock
+                                    FontSize="12"
+                                    Foreground="White"
+                                    Text="{Binding RelativeSource={RelativeSource Mode=TemplatedParent},
+                                            Path=(Validation.Errors)[0].ErrorContent}" />
+                            </Border>
+                        </Popup>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition
+                                    Property="Validation.HasError"
+                                    Value="True" />
+                                <Condition
+                                    Property="IsKeyboardFocused"
+                                    Value="True" />
+                            </MultiTrigger.Conditions>
+                            <Setter
+                                TargetName="ErrorView"
+                                Property="IsOpen"
+                                Value="True" />
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter
+            Property="Control.VerticalContentAlignment"
+            Value="Center" />
+        <Setter
+            Property="Control.Padding"
+            Value="{StaticResource PaddingInt}" />
+        <Setter
+            Property="TextBlock.Padding"
+            Value="{StaticResource PaddingInt}" />
+        <Setter
+            Property="Control.FontSize"
+            Value="{StaticResource FontSizeInt}" />
+        <Setter
+            Property="TextBlock.FontSize"
+            Value="{StaticResource FontSizeInt}" />
+        <Setter
+            Property="TextBlock.VerticalAlignment"
+            Value="Center" />
+    </Style>
+
+
+</ResourceDictionary>
+
+    

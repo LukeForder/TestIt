@@ -1,0 +1,138 @@
+﻿<Page x:Class="UI.Admin.Views.TestsView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      xmlns:vm="clr-namespace:UI.Admin.ViewModels"
+      xmlns:v="clr-namespace:UI.Admin.Views"
+      xmlns:templating="clr-namespace:UI.Admin.Infrastructure.Templating"
+      xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+      xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+      DataContext="{Binding TestsViewModel, Source={StaticResource Locator}}"
+	Title="TestsView">
+    <Page.Resources>
+        
+        
+    </Page.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition
+                Height="auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <ListBox
+            BorderBrush="Transparent"
+            BorderThickness="0"
+            ItemsSource="{Binding Errors}" />
+        <Grid
+            Grid.Row="1"
+            Margin="80">
+            <Grid.RowDefinitions>
+                <RowDefinition
+                    Height="auto" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <TextBlock
+                FontSize="38"
+                DockPanel.Dock="Left"
+                Text="{Binding Heading, Mode=OneWay}"
+                Padding="3" />
+            <Button
+                FontSize="24"
+                Cursor="Hand"
+                VerticalAlignment="Bottom"
+                Grid.Column="1"
+                Padding="3"
+                HorizontalAlignment="Right"
+                Command="{Binding NewTestCommand}"
+                Content="New">
+                <Button.Style>
+                    <Style
+                        TargetType="Button">
+                        <Style.Triggers>
+                            <Trigger
+                                Property="IsEnabled"
+                                Value="False">
+                                <Setter
+                                    Property="Visibility"
+                                    Value="Hidden" />
+                            </Trigger>
+                        </Style.Triggers>
+                        <Setter
+                            Property="ToolTip"
+                            Value="Create a new test." />
+                        <Setter
+                            Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate
+                                    TargetType="Button">
+                                    <ContentPresenter />
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <ContentControl
+                Grid.Row="1"
+                Grid.ColumnSpan="2"
+                Content="{Binding DataContext, Mode=OneWay}">
+                <ContentControl.Style>
+                    <Style TargetType="ContentControl">
+                        <Style.Triggers>
+                            <DataTrigger
+                                Binding="{Binding IsEditing, Mode=OneWay}"
+                                Value="true">
+                                <Setter
+                                    Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate
+                                            TargetType="ContentControl">
+                                            <Border BorderBrush="Black"
+                                                    BorderThickness="1">
+                                                <v:AlterTestView DataContext="{Binding DataContext, Mode=OneWay}" />
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </DataTrigger>
+                            <DataTrigger
+                                Binding="{Binding IsEditing, Mode=OneWay}"
+                                Value="false">
+                                <Setter
+                                    Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate
+                                            TargetType="ContentControl">
+                                            <ScrollViewer
+                                                VerticalScrollBarVisibility="Auto">
+                                                <ItemsControl
+                                                    Background="White"
+                                                    BorderBrush="Black"
+                                                    BorderThickness="1"
+                                                    ItemsSource="{Binding DataContext}">
+                                                    <ItemsControl.ItemTemplate>
+                                                        <DataTemplate
+                                                            DataType="{x:Type vm:TestViewModel}">
+                                                            <v:TestView />
+                                                        </DataTemplate>
+                                                    </ItemsControl.ItemTemplate>
+                                                </ItemsControl>
+                                            </ScrollViewer>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </ContentControl.Style>
+            </ContentControl>
+        </Grid>
+    </Grid>
+</Page>

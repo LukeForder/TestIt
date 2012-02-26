@@ -1,0 +1,8 @@
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Common\bin\Release\UI.Common.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Common\bin\Release\UI.Common.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Common\obj\Release\UI.Common.csprojResolveAssemblyReference.cache
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Common\obj\Release\Themes\Skins.baml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Common\obj\Release\UI.Common_MarkupCompile.cache
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Common\obj\Release\UI.Common.g.resources
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Common\obj\Release\UI.Common.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\UI.Common\obj\Release\UI.Common.pdb

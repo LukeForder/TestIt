@@ -1,0 +1,70 @@
+﻿<UserControl
+    x:Class="UI.Client.Views.QuestionView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:v="clr-namespace:UI.Client.Views"
+    xmlns:vm="clr-namespace:UI.Client.ViewModels"
+    xmlns:selectors="clr-namespace:UI.Client.Selectors"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="300">
+    <UserControl.Resources>
+
+        <DataTemplate
+            x:Key="CheckedAnswerTemplate"
+            DataType="{x:Type vm:SetMemberAnswerViewModel}">
+            <v:CheckedAnswersView />
+        </DataTemplate>
+
+        <DataTemplate
+            x:Key="RadioAnswerTemplate"
+            DataType="{x:Type vm:StandAloneAnswerViewModel}">
+            <v:AnswerView />
+        </DataTemplate>
+
+        <selectors:AnswerTemplateSelector
+            x:Key="AnswerTemplateSelector" />
+        
+    </UserControl.Resources>
+    <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Border
+                BorderThickness="0 0 2 0">
+                <Border.BorderBrush>
+                    <LinearGradientBrush
+                        SpreadMethod="Repeat"
+                        StartPoint="0 0"
+                        EndPoint="0 0.05">
+                        <GradientStop
+                            Offset="0"
+                            Color="Transparent" />
+                        <GradientStop
+                            Offset="0.5"
+                            Color="Transparent" />
+                        <GradientStop
+                            Offset="0.5"
+                            Color="#999" />
+                        <GradientStop
+                            Offset="1.0"
+                            Color="#999" />
+                    </LinearGradientBrush>
+                </Border.BorderBrush>
+                <v:QuestionsDetailsView
+                    DataContext="{Binding}" />
+            </Border>
+
+            <Border
+                Grid.Column="1">
+            <ItemsControl
+                ItemsSource="{Binding Answers}" 
+                ItemTemplateSelector="{StaticResource AnswerTemplateSelector}"/>
+        </Border>
+
+        </Grid>
+</UserControl>

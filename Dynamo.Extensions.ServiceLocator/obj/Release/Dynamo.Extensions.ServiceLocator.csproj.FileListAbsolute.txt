@@ -1,0 +1,10 @@
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Dynamo.Extensions.ServiceLocator\bin\Release\Dynamo.Extensions.ServiceLocator.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Dynamo.Extensions.ServiceLocator\bin\Release\Dynamo.Extensions.ServiceLocator.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Dynamo.Extensions.ServiceLocator\bin\Release\Dynamo.Ioc.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Dynamo.Extensions.ServiceLocator\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Dynamo.Extensions.ServiceLocator\bin\Release\Dynamo.Ioc.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Dynamo.Extensions.ServiceLocator\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Dynamo.Extensions.ServiceLocator\bin\Release\Microsoft.Practices.ServiceLocation.xml
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Dynamo.Extensions.ServiceLocator\obj\Release\Dynamo.Extensions.ServiceLocator.csprojResolveAssemblyReference.cache
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Dynamo.Extensions.ServiceLocator\obj\Release\Dynamo.Extensions.ServiceLocator.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Dynamo.Extensions.ServiceLocator\obj\Release\Dynamo.Extensions.ServiceLocator.pdb

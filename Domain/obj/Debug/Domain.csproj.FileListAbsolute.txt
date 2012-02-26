@@ -1,0 +1,23 @@
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain\bin\Debug\Domain.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain\bin\Debug\Domain.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain\obj\Debug\Domain.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain\obj\Debug\Domain.pdb
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain\bin\Debug\Infrastructure.dll
+C:\Users\luke.forder\Documents\Visual Studio 2010\Projects\Domain\Domain\bin\Debug\Infrastructure.pdb
+H:\Development\Domain\Domain\bin\Debug\Domain.dll
+H:\Development\Domain\Domain\bin\Debug\Domain.pdb
+H:\Development\Domain\Domain\bin\Debug\Infrastructure.dll
+H:\Development\Domain\Domain\bin\Debug\Infrastructure.pdb
+H:\Development\Domain\Domain\obj\Debug\ResolveAssemblyReference.cache
+H:\Development\Domain\Domain\obj\Debug\Domain.dll
+H:\Development\Domain\Domain\obj\Debug\Domain.pdb
+H:\Development\Domain - Copy\Domain\bin\Debug\Domain.dll
+H:\Development\Domain - Copy\Domain\bin\Debug\Domain.pdb
+H:\Development\Domain - Copy\Domain\bin\Debug\Infrastructure.dll
+H:\Development\Domain - Copy\Domain\bin\Debug\Infrastructure.pdb
+H:\Development\Domain - Copy\Domain\obj\Debug\ResolveAssemblyReference.cache
+H:\Development\Domain - Copy\Domain\obj\Debug\Domain.dll
+H:\Development\Domain - Copy\Domain\obj\Debug\Domain.pdb
+H:\Development\Domain - Copy\Builds\Debug\Domain\Domain.dll
+H:\Development\Domain - Copy\Builds\Debug\Domain\Domain.pdb

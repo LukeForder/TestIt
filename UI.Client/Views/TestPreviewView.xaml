@@ -1,0 +1,91 @@
+﻿<Page x:Class="UI.Client.Views.TestPreviewView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      DataContext="{Binding TestPreviewViewModel, Source={StaticResource Locator}}"
+	Title="TestPreveiwView">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition
+                Height="auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <TextBlock
+            Padding="5"
+            TextAlignment="Left"
+            Background="{StaticResource MainBackground}"
+            Text="I.T. Aptitude Assessment and Interest Analysis Tool"
+            FontSize="12"
+            Foreground="White" />
+        <Grid
+            Grid.Row="1">
+            <FlowDocumentPageViewer>
+                <FlowDocument>
+                    <Paragraph
+                        FontSize="20">
+                        <Bold>Welcome
+                            <InlineUIContainer>
+                                <TextBlock
+                                    Margin="4 0"
+                                    Style="{StaticResource ParagraphHeading}"
+                                    Text="{Binding Name, FallbackValue='Nameless One'}" />
+                            </InlineUIContainer>
+                        </Bold>
+                    </Paragraph>
+                    <Paragraph>
+                        Welcome to the I.T. Aptitude Assessment and Interest Analysis Tool, this tool will help you assess your
+                        abilities and your interests with the field of I.T. The purpose of this tool is to assist you in making 
+                        a decision as to whether you should pursue a career within I.T. Remember that the results of this 
+                        assessment merely serve as an aid to your decision, they are not proscriptive, you are the one who should 
+                        make the final choice.
+                    </Paragraph>
+                    <Paragraph
+                        FontSize="20"
+                        FontWeight="Bold">
+                        <LineBreak />
+                        About the Aptitude Test
+                    </Paragraph>
+                    <Paragraph>
+                        This assessment focuses on two particular fields within the I.T. sector, namely Networking and Development.
+                        The networking field focuses on the provision and maintenance of the hardware and network infrastructure
+                        that has become crucial to the modern business environment. While the development field focuses on the
+                        creation and maintenance of the software which assists in business practice. Bear in mind that the two
+                        previous summaries are just the tip of the iceberg when it comes to the career opportunities in each field,
+                        we suggest that you go do research into the field that you interested in to gain understanding of what it entails.
+                    </Paragraph>
+                    <Paragraph
+                        FontSize="20"
+                        FontWeight="Bold">
+                        <LineBreak />
+                        Aptitude Questions
+                    </Paragraph>
+                    <Paragraph>
+                        The aptitude portion of the test focus to assessing your current level of skill within each field. While
+                        previous experience isn’t necessary when studying it does help to at least have a basic understanding or
+                        previous exposure to what you are studying as in some courses the work load is very heavy.
+                    </Paragraph>
+
+                    <Paragraph
+                        FontSize="20"
+                        FontWeight="Bold">
+                        <LineBreak />
+                        Interest Questions
+                    </Paragraph>
+                    <Paragraph>The second part of the exam assesses your interest in each field based on the environment 
+                        you’d like to work in and your personality type. This helps you to judge whether you would find the working 
+                        environment for a particular career path for fulling. Keep in mind that this only a rough guide as there
+                        are many different work environments within each field.
+                    </Paragraph>
+                    <BlockUIContainer>
+                        <Button
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Center"
+                            Style="{StaticResource NavigationButton}"
+                            Content="Ok"
+                            Command="{Binding GoToTestSelectionCommand}" />
+                    </BlockUIContainer>
+                </FlowDocument>
+            </FlowDocumentPageViewer>
+        </Grid>
+    </Grid>
+</Page>
